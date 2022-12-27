@@ -102,6 +102,11 @@ body {
   gap: 30px;
 }
 
+.works-img img {
+  width: 246px;
+  height: 180px;
+}
+
 /* end Works Page Styling */
 
 /* start contact styling */
@@ -127,7 +132,6 @@ body {
 /* end contact styling */
 
 @media screen and (max-width: 768px) {
-
   body.active {
     overflow: hidden;
   }
@@ -183,7 +187,11 @@ body {
     transition: 0.7s ease-in-out;
   }
 
-   .works-content {
+  .works h1 {
+  padding-left: 16px;
+  }
+
+  .works-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,7 +205,11 @@ body {
     height: 230px;
   }
 
-  .works-inner {
-    margin-left: 16px;
+  .works-inner p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--blog-text-color);
+    padding: 0 10px;
   }
 }
