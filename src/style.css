@@ -203,7 +203,10 @@ body {
 }
 
 .featured-works-img img {
-  padding-left: 130px;
+  width: 339px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .featured-works-text {
@@ -403,6 +406,10 @@ body {
     padding-left: 0px;
     display: block;
     margin: 0 auto;
+    width: 330px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
   }
 
   .featured-works-text {
